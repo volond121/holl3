@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "holl3"
+version = "0.1.0"
+description = ""
+authors = ["Vadim Sotnikov <602587@list.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+say = "holl3.scripts.say:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
